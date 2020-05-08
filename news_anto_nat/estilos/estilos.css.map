@@ -4,7 +4,8 @@
     "sources": [
         "estilos.scss",
         "_header.scss",
-        "_main.scss"
+        "_main.scss",
+        "_footer.scss"
     ],
     "names": [],
     "file": "estilos.css"
