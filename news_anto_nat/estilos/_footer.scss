@@ -6,4 +6,13 @@ footer {
     border: 1px solid #eebb55;
     border-radius: 7pt;
     background: #ffeebb;
-    }
+}
+
+footer .firma{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    color: white;
+    text-align: left;
+}
