@@ -1,18 +1,24 @@
 footer {
-    display: block;
-    margin: 4px;
-    padding: 5px;
+    margin: 2px;
+    padding: 2px;
     min-height: 100px;
     border: 1px solid #eebb55;
-    border-radius: 7pt;
+    border-radius: 4pt;
     background: #ffeebb;
+    
 }
 
-footer .firma{
+div{
+  display: flex;
+  justify-content: flex-end;
+}
+
+div address{
 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: medium;
-    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
-    color: white;
-    text-align: left;
-}
+    font-size: x-large;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px, 0 0 0.2em rgb(162, 0, 255);
+    color: rgb(19, 18, 18);
+             
+ }

@@ -7,30 +7,30 @@ main {
     }
    
    main > .column1 {
-    margin: 4px;
+    margin: 2px;
     padding: 5px;
     border: 1px solid #cccc33;
-    border-radius: 7pt;
+    border-radius: 4pt;
     background: #dddd88;
     flex: 3 1 60%;
     order: 2;
     }
    
    main > .column2 {
-    margin: 4px;
+    margin: 2px;
     padding: 5px;
     border: 1px solid #8888bb;
-    border-radius: 7pt;
+    border-radius: 4pt;
     background: #ccccff;
     flex: 1 6 20%;
     order: 1;
     }
    
    main >  .column3 {
-    margin: 4px;
+    margin: 2px;
     padding: 5px;
     border: 1px solid #8888bb;
-    border-radius: 7pt;
+    border-radius: 4pt;
     background: #ccccff;
     flex: 1 6 20%;
     order: 3;

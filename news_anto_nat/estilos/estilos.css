@@ -1,10 +1,18 @@
 header {
-  display: block;
-  margin: 4px;
-  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2px;
+  padding: 4px;
   min-height: 100px;
   border: 1px solid #eebb55;
-  border-radius: 7pt;
+  border-radius: 4pt;
   background: #ffeebb;
 }
 
@@ -22,10 +30,10 @@ main {
 }
 
 main > .column1 {
-  margin: 4px;
+  margin: 2px;
   padding: 5px;
   border: 1px solid #cccc33;
-  border-radius: 7pt;
+  border-radius: 4pt;
   background: #dddd88;
   -webkit-box-flex: 3;
       -ms-flex: 3 1 60%;
@@ -36,10 +44,10 @@ main > .column1 {
 }
 
 main > .column2 {
-  margin: 4px;
+  margin: 2px;
   padding: 5px;
   border: 1px solid #8888bb;
-  border-radius: 7pt;
+  border-radius: 4pt;
   background: #ccccff;
   -webkit-box-flex: 1;
       -ms-flex: 1 6 20%;
@@ -50,10 +58,10 @@ main > .column2 {
 }
 
 main > .column3 {
-  margin: 4px;
+  margin: 2px;
   padding: 5px;
   border: 1px solid #8888bb;
-  border-radius: 7pt;
+  border-radius: 4pt;
   background: #ccccff;
   -webkit-box-flex: 1;
       -ms-flex: 1 6 20%;
@@ -64,13 +72,29 @@ main > .column3 {
 }
 
 footer {
-  display: block;
-  margin: 4px;
-  padding: 5px;
+  margin: 2px;
+  padding: 2px;
   min-height: 100px;
   border: 1px solid #eebb55;
-  border-radius: 7pt;
+  border-radius: 4pt;
   background: #ffeebb;
+}
+
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+div address {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px, 0 0 0.2em #a200ff;
+  color: #131212;
 }
 
 body {
