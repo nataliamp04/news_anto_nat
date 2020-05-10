@@ -43,6 +43,12 @@ main > .column1 {
           order: 2;
 }
 
+img {
+  width: 500px;
+  height: 500px;
+  border: 1px ghostwhite solid;
+}
+
 main > .column2 {
   margin: 2px;
   padding: 5px;
