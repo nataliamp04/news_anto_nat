@@ -2,23 +2,19 @@ footer {
     margin: 2px;
     padding: 2px;
     min-height: 100px;
-    border: 1px solid #eebb55;
+    border: 1px solid #609fec;
     border-radius: 4pt;
-    background: #ffeebb;
+    background: #dfebfa;
     
 }
 
-div{
-  display: flex;
-  justify-content: flex-end;
-}
 
 div address{
 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: x-large;
-    font-weight: bold;
-    text-shadow: 1px 1px 2px, 0 0 0.2em rgb(162, 0, 255);
-    color: rgb(19, 18, 18);
+    font-weight: lighter;
+    text-shadow: 1px 1px 2px, 0 0 0.2em rgb(132, 174, 236);
+    color: rgb(20, 9, 80);
              
  }
