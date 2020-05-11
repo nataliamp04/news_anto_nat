@@ -2,13 +2,23 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     margin: 2px;
     padding: 4px;
     min-height: 100px;
+
     border: 1px solid #609fec;
     border-radius: 4pt;
     background: #dfebfa;
+    
+    
+    h1 {
+        font-size: 20px;
     text-shadow: 1px 1px 2px, 0 0 0.2em rgb(221, 117, 117);
-    color: rgb(80, 9, 9);
+    color: rgb(211, 15, 15);
+}
+
+
+   
     }
 
