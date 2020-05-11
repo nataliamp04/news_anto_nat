@@ -1,0 +1,28 @@
+@import "header";
+@import "main";
+@import "footer";
+
+body {
+    font-family: 'Helvetica';
+    margin: 0px auto;
+    
+   }
+
+/* Mobile */
+@media all and (max-width: 640px) {
+
+    main {
+        flex-flow: column;
+    }
+   
+    main > .column1, main > .column2, main > .column3 {
+     /* Return them to document order */
+        order: 0;
+    }
+   
+    main > .column2, main > .column3, header, footer {
+     min-height: 50px;
+     max-height: 50px;
+    }
+   }
+   
